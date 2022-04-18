@@ -1,0 +1,17 @@
+﻿<Page x:Class="系统.pages.Page6"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:系统.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="525.123"
+      Title="Page6">
+
+    <Grid>
+        <Label Content="帮    助    help" HorizontalAlignment="Center" Width="194" Margin="161,10,170,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="24"/>
+        <Label  HorizontalAlignment="Center" MaxWidth="679" Margin="10,61,10,0" VerticalAlignment="Top" FontFamily="Candara" FontSize="17" Width="505">
+            <TextBlock TextWrapping="Wrap" Text="1、查询学生相关信息时可在学生查询页根据相关检索内容查询到想要查询的内容。&#x0a;2、主菜单点击学生管理页后，双击某一学生的那一行能弹出新窗口，可以在此窗口更改他的相关信息（学号、姓名、年龄等信息不能进行修改）；点击“新增”按钮会弹出新窗口以增加某一新生的相关信息；选择某一学生，点击“删除”按钮能删除该学生。&#x0a;3、点击主菜单“教师信息汇总”会显示当下数据库老师的详细信息。&#x0a;4、点击主菜单“新增教师”可以添加新的教师。&#x0a;5、如果老师在记得密码的情况下需要修改密码，点击主菜单“修改密码”选择对应的工号就能修改此老师的密码。&#x0a;6、若老师在不记得密码的情况下需要修改密码，老师则需要在登录界面上，点击忘记密码按钮输入此教师的详细信息检测成功后方能重置密码。"></TextBlock>
+        </Label>
+    </Grid>
+</Page>

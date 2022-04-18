@@ -1,0 +1,16 @@
+﻿<Page x:Class="系统.pages.Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:系统.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="525.123"
+      Title="Page3">
+
+    <Grid>
+        <ListBox x:Name="listbox1" HorizontalAlignment="Center" Height="210" Margin="-0.1,73,-0.1,0" VerticalAlignment="Top" Width="525" FontSize="14"  />
+        <Label FontFamily="Arial Black" FontSize="24" Content="老 师 信 息 汇 总" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top" Width="auto"/>
+        <Label x:Name="lb" Content="" Background="{x:Null}" Foreground="#FFFD7373" HorizontalAlignment="Left" Margin="0,283,0,0" VerticalAlignment="Top" Width="419"/>
+    </Grid>
+</Page>
